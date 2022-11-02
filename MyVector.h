@@ -1,4 +1,5 @@
-#pragma once
+#include <exception>
+#include <string>
 class MyVector {
 
 public:
@@ -23,3 +24,18 @@ private:
 
 };
 
+
+class Index_out_bound_exception : std::exception {
+
+public:
+
+	Index_out_bound_exception(std::string t) : text{ t } {};
+
+	std::string printError() {
+		return text;
+	}
+
+private:
+
+	std::string text;
+};

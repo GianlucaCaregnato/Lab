@@ -25,7 +25,9 @@ double& MyVector::operator[](int i) {
 
 void MyVector::safe_set(int i, double elem) {
 
-	//dopo faccio i controlli
+	if (i < 0 || i >= length) {
+		throw Index_out_bound_exception("Fuori index");
+	}
 
 	arr[i] = elem;
 
@@ -33,7 +35,9 @@ void MyVector::safe_set(int i, double elem) {
 
 double MyVector::safe_get(int i) {
 
-	//faccio i controlli
+	if (i < 0 || i >= length) {
+		throw Index_out_bound_exception("Fuori index");
+	}
 
 	return arr[i];
 
@@ -41,6 +45,7 @@ double MyVector::safe_get(int i) {
 
 MyVector::~MyVector() {
 
-	delete arr;
+	delete []arr;
 
 }
+

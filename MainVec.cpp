@@ -15,4 +15,19 @@ int main() {
 
 	std::cout << vec[0] << "\n";
 
+	double* prova;
+
+	{
+		MyVector vec1 = MyVector(1);
+
+		vec1[0] = 2.1;
+
+		 prova = &vec1[0];
+
+		 std::cout << *prova << " arrivato \n";
+	}
+
+	std::cout << *prova << " arrivato \n";
+
+
 }
