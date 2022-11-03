@@ -1,21 +1,11 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "49f723ea-1dc9-4b92-bb6c-6691469f8075": {
-      "ProjectGuid": "49f723ea-1dc9-4b92-bb6c-6691469f8075",
-      "DisplayName": "Es1_2_3",
-      "ColorIndex": 0
-    },
-    "c78b6064-242a-4a30-ab65-44edc6dee757": {
-      "ProjectGuid": "c78b6064-242a-4a30-ab65-44edc6dee757",
-      "DisplayName": "LabVector",
-      "ColorIndex": 1
-    },
-    "b2fef328-9c89-435a-b712-08ed025dc34d": {
-      "ProjectGuid": "b2fef328-9c89-435a-b712-08ed025dc34d",
-      "DisplayName": "Lab2Gianluca",
-      "ColorIndex": 2
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "File esterni",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 0
 }

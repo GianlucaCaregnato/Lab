@@ -1,0 +1,14 @@
+﻿'Lab1.exe' (Win32): caricamento di 'C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab1\x64\Debug\Lab1.exe' completato. Simboli caricati.
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\ntdll.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\kernel32.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\KernelBase.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\msvcp140d.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\vcruntime140d.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\vcruntime140_1d.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\ucrtbased.dll' completato. 
+Il thread 0xe83c è terminato con il codice 0 (0x0).
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\kernel.appcore.dll' completato. 
+'Lab1.exe' (Win32): caricamento di 'C:\Windows\System32\msvcrt.dll' completato. 
+Il thread 0x7da0 è terminato con il codice 0 (0x0).
+Il thread 0xd9e4 è terminato con il codice 0 (0x0).
+Il programma '[13604] Lab1.exe' è terminato con il codice 0 (0x0).
