@@ -11,7 +11,7 @@ MyVector::MyVector(int l) {
 
 }
 
-double MyVector::operator[](int i) const { //lettura
+double MyVector::operator[](int i) const { 
 
 	return arr[i];
 
