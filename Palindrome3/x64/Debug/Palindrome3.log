@@ -1,0 +1,10 @@
+﻿  Palindrome3.cpp
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(21,32): warning C4311: 'cast di tipo': troncamento puntatore da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(21,32): warning C4302: 'cast di tipo': troncamento da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(21,60): warning C4311: 'cast di tipo': troncamento puntatore da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(21,60): warning C4302: 'cast di tipo': troncamento da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(23,33): warning C4311: 'cast di tipo': troncamento puntatore da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(23,33): warning C4302: 'cast di tipo': troncamento da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(23,52): warning C4311: 'cast di tipo': troncamento puntatore da 'void *' a 'int'
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Palindrome3\Palindrome3.cpp(23,52): warning C4302: 'cast di tipo': troncamento da 'void *' a 'int'
+  Palindrome3.vcxproj -> C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\LabVector\x64\Debug\Palindrome3.exe
