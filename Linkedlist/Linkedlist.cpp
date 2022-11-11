@@ -6,6 +6,8 @@ int main() {
 
 	Link test = Link("prova", nullptr, nullptr);
 
+	test.print_all();
+
 	test.insert(Link("ciao", nullptr, nullptr));
 
 	test.print_all();

@@ -1,2 +1,6 @@
-﻿  Linkedlist.cpp
+﻿  Link.cpp
+  Linkedlist.cpp
+  Generazione del codice in corso...
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Linkedlist\Link.cpp(44): warning C4172: verrà restituito l'indirizzo del valore : n temporaneo o della variabile locale
+C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\Linkedlist\Link.cpp(52): warning C4172: verrà restituito l'indirizzo del valore : n temporaneo o della variabile locale
   Linkedlist.vcxproj -> C:\Users\gianl\OneDrive - Università degli Studi di Padova\Programmazione\Laboratori\Lab\LabVector\x64\Debug\Linkedlist.exe

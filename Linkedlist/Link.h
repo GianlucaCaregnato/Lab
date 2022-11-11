@@ -13,8 +13,8 @@ public:
 	Link* find(std::string);
 	Link* advance(int);
 	void print_all();
-
-	Link& operator = (Link const& obj);
+	
+	Link* operator = (Link const& obj);
 
 
 

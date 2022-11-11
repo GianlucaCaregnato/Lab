@@ -64,6 +64,8 @@ Link* Link::advance(int)
 
 void Link::print_all()
 {
+	//this qua e' prova e ha prima ciao
+
 	Link* n = this;
 
 	while (n->prev != nullptr) {
@@ -78,10 +80,22 @@ void Link::print_all()
 
 		n = n->succ;
 
+		if (false)
+			break;
+
 	}
 
 	std::cout << "\n";
 
+}
+
+Link* Link::operator=(Link const& obj) {
+	
+	this->prev = obj.prev;
+	this->succ = obj.succ;
+	this->value = obj.value;
+
+	return this;
 }
 
 
