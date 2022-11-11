@@ -14,6 +14,8 @@ public:
 	Link* advance(int);
 	void print_all();
 
+	Link& operator = (Link const& obj);
+
 
 
 private:
