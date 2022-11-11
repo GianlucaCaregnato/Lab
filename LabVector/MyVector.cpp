@@ -7,8 +7,6 @@ MyVector::MyVector(int l) {
 
 	arr = new double[l];
 
-
-
 }
 
 double MyVector::operator[](int i) const { 

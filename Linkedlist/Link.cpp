@@ -56,5 +56,33 @@ Link* Link::find(std::string v)
 	return nullptr;
 }
 
+Link* Link::advance(int)
+{
+
+	return nullptr;
+}
+
+void Link::print_all()
+{
+	Link* n = this;
+
+	while (n->prev != nullptr) {
+
+		n = n->prev;
+
+	}
+
+	while (n->succ != nullptr) {
+
+		std::cout << n->value << " ";
+
+		n = n->succ;
+
+	}
+
+	std::cout << "\n";
+
+}
+
 
 
