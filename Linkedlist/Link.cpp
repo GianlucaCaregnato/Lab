@@ -74,14 +74,16 @@ void Link::print_all()
 
 	}
 
-	while (n->succ != nullptr) {
+	bool test = true;
+
+	while (test) {
 
 		std::cout << n->value << " ";
 
 		n = n->succ;
 
-		if (false)
-			break;
+		if (n->succ != nullptr)
+			test = false;
 
 	}
 

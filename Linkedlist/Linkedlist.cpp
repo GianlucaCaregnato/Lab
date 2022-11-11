@@ -4,12 +4,12 @@
 
 int main() {
 
-	Link test = Link("prova", nullptr, nullptr);
+	Link* test = new Link("prova", nullptr, nullptr);
 
-	test.print_all();
+	test->print_all();
 
-	test.insert(Link("ciao", nullptr, nullptr));
+	test->insert(Link("ciao", nullptr, nullptr));
 
-	test.print_all();
+	test->print_all();
 
 }
