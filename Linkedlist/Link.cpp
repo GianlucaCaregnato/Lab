@@ -2,22 +2,22 @@
 
 Link::Link(const std::string& v , Link* p = nullptr, Link* s = nullptr) :value{v}, prev{p}, succ{s} {}
 
-Link* Link::insert(Link n) {//inserisco n prima del nodo corrente
+Link* Link::insert(Link* n) {//inserisco n prima del nodo corrente
 
-	n.succ = this;
-	n.prev = this->prev;
+	n->succ = this;
+	n->prev = this->prev;
 
-	this->prev = &n;
+	this->prev = n;
 
 	return this;
 }
 
-Link* Link::add(Link n) {
+Link* Link::add(Link* n) {
 
-	n.prev = this;
-	n.succ = this->succ;
+	n->prev = this;
+	n->succ = this->succ;
 
-	this->succ = &n;
+	this->succ = n;
 
 	return this;
 }
@@ -76,14 +76,11 @@ void Link::print_all()
 
 	bool test = true;
 
-	while (test) {
+	while (n) {
 
 		std::cout << n->value << " ";
 
 		n = n->succ;
-
-		if (n->succ != nullptr)
-			test = false;
 
 	}
 
