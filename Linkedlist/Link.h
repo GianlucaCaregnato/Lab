@@ -13,6 +13,7 @@ public:
 	Link* find(std::string);
 	Link* advance(int);
 	void print_all();
+	void print_this();
 
 
 

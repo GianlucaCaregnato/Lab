@@ -22,16 +22,14 @@ Link* Link::add(Link* n) {
 	return this;
 }
 
-Link* Link::erase()
-{
+Link* Link::erase() {
 	this->prev->succ = this->succ;
 	this->succ->prev = this->prev;
 
 	return this;
 }
 
-Link* Link::find(std::string v)
-{
+Link* Link::find(std::string v) {
 	if (this->value == v) {
 		return this;
 	}
@@ -56,14 +54,12 @@ Link* Link::find(std::string v)
 	return nullptr;
 }
 
-Link* Link::advance(int)
-{
+Link* Link::advance(int) {
 
 	return nullptr;
 }
 
-void Link::print_all()
-{
+void Link::print_all() {
 	//this qua e' prova e ha prima ciao
 
 	Link* n = this;
@@ -84,6 +80,10 @@ void Link::print_all()
 
 	std::cout << "\n";
 
+}
+
+void Link::print_this()
+{
 }
 
 
