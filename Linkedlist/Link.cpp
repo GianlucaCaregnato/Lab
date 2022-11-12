@@ -91,13 +91,13 @@ void Link::print_all()
 
 }
 
-Link* Link::operator=(Link const& obj) {
+Link Link::operator=(Link const& obj) {
 	
 	this->prev = obj.prev;
 	this->succ = obj.succ;
 	this->value = obj.value;
 
-	return this;
+	return *this;
 }
 
 
