@@ -1,6 +1,6 @@
 #include "Link.h"
 
-Link::Link(const std::string& v , Link* p = nullptr, Link* s = nullptr) :value{v}, prev{p}, succ{s} {}
+Link::Link(const std::string& v , Link* p, Link* s) :value{v}, prev{p}, succ{s} {}
 
 Link* Link::insert(Link* n) {//inserisco n prima del nodo corrente
 
@@ -37,19 +37,19 @@ Link* Link::find(std::string v)
 	}
 
 
-	Link n = *this;
-	while (n.succ != nullptr) {
-		n = *n.succ;
-		if (n.value == v) {
-			return &n;
+	Link* n = this;
+	while (n->succ != nullptr) {
+		n = n->succ;
+		if (n->value == v) {
+			return n;
 		}
 	}
 
-	n = *this;
-	while (n.prev != nullptr) {
-		n = *n.prev;
-		if (n.value == v) {
-			return &n;
+	n = this;
+	while (n->prev != nullptr) {
+		n = n->prev;
+		if (n->value == v) {
+			return n;
 		}
 	}
 
@@ -74,8 +74,6 @@ void Link::print_all()
 
 	}
 
-	bool test = true;
-
 	while (n) {
 
 		std::cout << n->value << " ";
@@ -88,14 +86,6 @@ void Link::print_all()
 
 }
 
-Link Link::operator=(Link const& obj) {
-	
-	this->prev = obj.prev;
-	this->succ = obj.succ;
-	this->value = obj.value;
-
-	return *this;
-}
 
 
 
