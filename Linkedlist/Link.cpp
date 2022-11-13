@@ -54,21 +54,30 @@ Link* Link::find(std::string v) {
 	return nullptr;
 }
 
-Link* Link::advance(int) {
+Link* Link::advance(int i) {
 
-	return nullptr;
+	if (i >= 0) {
+
+		Link* n = this->find_first();
+
+		for (int j = 0; j < i; j++) {
+			if (n) {
+				n = n->succ;
+			}
+			else {
+				return nullptr;
+			}
+		}
+
+		return n;
+	}
+
+
 }
 
 void Link::print_all() {
-	//this qua e' prova e ha prima ciao
 
-	Link* n = this;
-
-	while (n->prev != nullptr) {
-
-		n = n->prev;
-
-	}
+	Link* n = this->find_first();
 
 	while (n) {
 
@@ -82,8 +91,30 @@ void Link::print_all() {
 
 }
 
-void Link::print_this()
-{
+void Link::print_this() {
+
+	std::cout << this->value << "\n";
+
+}
+
+void Link::print_that(Link* n) {
+
+	std::cout << n->value << "\n";
+
+}
+
+Link* Link::find_first() {
+
+	Link* first = this;
+
+	while (first->prev) {
+
+		first = first->prev;
+
+	}
+
+	return first;
+
 }
 
 

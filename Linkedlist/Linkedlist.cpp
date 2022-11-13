@@ -16,4 +16,12 @@ int main() {
 
 	test->print_all();
 
+	test->print_this();
+
+	test->print_that(test->find("Gian"));
+
+	test->print_that(test->find("ciao"));
+
+	test->print_that(test->advance(2));
+
 }

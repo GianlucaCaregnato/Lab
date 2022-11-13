@@ -14,6 +14,7 @@ public:
 	Link* advance(int);
 	void print_all();
 	void print_this();
+	void print_that(Link*);
 
 
 
@@ -23,6 +24,8 @@ private:
 	std::string value;
 	Link* prev;
 	Link* succ;
+
+	Link* find_first();
 
 };
 
