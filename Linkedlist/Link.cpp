@@ -22,11 +22,21 @@ Link* Link::add(Link* n) {
 	return this;
 }
 
-Link* Link::erase() {
-	this->prev->succ = this->succ;
-	this->succ->prev = this->prev;
+Link* Link::erase(Link* n) {
+		
+	if (!n->succ && n->prev) 
+		n->prev->succ = nullptr;
+		
+	if (!n->prev && n->succ) 
+		n->succ->prev = nullptr;
 
-	return this;
+	if (n->succ && n->prev) {
+		n->prev->succ = n->succ;
+		n->succ->prev = n->prev;
+	}
+	
+
+	return n;
 }
 
 Link* Link::find(std::string v) {
@@ -103,6 +113,47 @@ void Link::print_that(Link* n) {
 
 }
 
+Link* Link::push_front(Link* n) {
+
+	Link* first = this->find_first();
+
+	first->insert(n);
+
+	return n;
+}
+
+Link* Link::push_back(Link* n) {
+
+	Link* last = this->find_last();
+
+	last->add(n);
+
+	return this;
+}
+
+Link* Link::pop_front() {
+
+	return this->erase(this->find_first());
+
+}
+
+Link* Link::pop_back() {
+
+	return this->erase(this->find_last());;
+
+}
+
+Link::~Link() {
+
+	Link* n = this->find_first();
+
+	while (n->succ) {
+		n = n->succ;
+		delete n->prev;
+	}
+	delete n;
+}
+
 Link* Link::find_first() {
 
 	Link* first = this;
@@ -115,6 +166,19 @@ Link* Link::find_first() {
 
 	return first;
 
+}
+
+Link* Link::find_last()
+{
+	Link* last = this;
+
+	while (last->succ) {
+
+		last = last->succ;
+
+	}
+
+	return last;
 }
 
 

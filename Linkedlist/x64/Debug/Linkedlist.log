@@ -1,2 +1,5 @@
-﻿  Linkedlist.cpp
+﻿  Link.cpp
+  Linkedlist.cpp
+  Generazione del codice in corso...
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Linkedlist\Link.cpp(86): warning C4715: 'Link::advance': non tutti i percorsi di controllo restituiscono un valore
   Linkedlist.vcxproj -> C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\LabVector\x64\Debug\Linkedlist.exe

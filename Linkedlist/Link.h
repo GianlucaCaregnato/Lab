@@ -6,16 +6,22 @@ class Link
 {
 public:
 
-	Link(const std::string& v, Link* p = nullptr, Link* s = nullptr);
-	Link* insert(Link*);
-	Link* add(Link*);
-	Link* erase();
-	Link* find(std::string);
-	Link* advance(int);
-	void print_all();
-	void print_this();
-	void print_that(Link*);
+	Link(const std::string& v, Link* p = nullptr, Link* s = nullptr); //testato
+	Link* insert(Link*); //testato
+	Link* add(Link*); //testato
+	Link* erase(Link*); //testato
+	Link* find(std::string); //testato
+	Link* advance(int); //testato
+	void print_all(); //testato
+	void print_this(); //extra per test
+	void print_that(Link*); //extra per test
 
+	Link* push_front(Link*);
+	Link* push_back(Link*);
+	Link* pop_front();
+	Link* pop_back();
+
+	~Link();
 
 
 
@@ -25,8 +31,8 @@ private:
 	Link* prev;
 	Link* succ;
 
-	Link* find_first();
-
+	Link* find_first(); //trova il primo valore della lista (utile per varie funzioni)
+	Link* find_last();
 };
 
 #endif 
