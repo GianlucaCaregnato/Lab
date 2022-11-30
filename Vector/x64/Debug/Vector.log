@@ -1,6 +1,4 @@
-﻿  Vector.cpp
-C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(25,6): error C2365: 'Vector<T>::size': ridefinizione. La definizione precedente era 'membro dati'
-C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(12,6): message : vedere la dichiarazione di 'Vector<T>::size'
-C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(27,2): message : vedere il riferimento all'istanza 'Vector<T>' di modello classe di cui è in corso la compilazione
-C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(25,21): error C2059: errore di sintassi: 'return'
-C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(25,1): error C2238: token imprevisti prima di ';'
+﻿  Vec.cpp
+  Vector.cpp
+  Generazione del codice in corso...
+  Vector.vcxproj -> C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\LabVector\x64\Debug\Vector.exe

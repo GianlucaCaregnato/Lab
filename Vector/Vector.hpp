@@ -2,17 +2,7 @@
 #define Vector_hpp
 #include "Vector.h"
 
-template<typename T>
-T Vector<T>::at(int i) const {
 
-	return elem[i];
-}
-
-template<typename T>
-T Vector<T>::operator[](int i) const {
-
-	return at(i);
-}
 
 template<class T>
 Vector<T>::Vector() 
@@ -33,7 +23,7 @@ Vector<T>::Vector(std::initializer_list<T> l)
 template<typename T>
 std::ostream& operator<<(std::ostream& os, const Vector<T>& v){
 
-	for (int i = 0; i < v.size(); i++) {
+	for (int i = 0; i < v.get_size(); i++) {
 		os << v[i];
 	}
 	

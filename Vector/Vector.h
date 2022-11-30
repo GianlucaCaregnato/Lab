@@ -9,8 +9,8 @@ class Vector {
 
 private:
 
-	int size;
-	int element;
+	size_t size;
+	size_t element;
 	T* elem;
 
 public:
@@ -19,10 +19,10 @@ public:
 	Vector(int, T a[] = nullptr);
 	Vector(std::initializer_list<T>);
 
-	T at(int) const;
-	T operator [] (int) const;
+	T at(int i) const { return elem[i]; };
+	T operator [] (int i) const { return at(i); };
 
-	int size() const { return element; };
+	size_t get_size() const { return element; };
 
 };
 
