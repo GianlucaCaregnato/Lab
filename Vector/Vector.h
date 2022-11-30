@@ -13,6 +13,8 @@ private:
 	size_t element;
 	T* elem;
 
+	void resize();
+
 public:
 
 	Vector();
@@ -23,6 +25,8 @@ public:
 	T operator [] (int i) const { return at(i); };
 
 	size_t get_size() const { return element; };
+
+	
 
 };
 
