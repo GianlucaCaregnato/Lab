@@ -1,0 +1,8 @@
+﻿  Vec.cpp
+  Vector.cpp
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.hpp(7,12): error C2838: '{ctor}': nome completo non valido nella dichiarazione di membro
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(23,2): message : vedere il riferimento all'istanza 'Vector<T>' di modello classe di cui è in corso la compilazione
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.hpp(8,2): error C2059: errore di sintassi: ':'
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.hpp(8,1): error C2334: token imprevisti prima di ':'. Il corpo apparente della funzione verrà ignorato.
+C:\Users\gianl\source\repos\GianlucaCaregnato\Lab\Vector\Vector.h(23,1): fatal  error C1903: impossibile recuperare l'errore o gli errori precedenti. Interruzione della compilazione
+  Generazione del codice in corso...

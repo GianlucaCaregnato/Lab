@@ -7,13 +7,17 @@ class Vector {
 
 public:
 	Vector();
-	Vector(int, T[] = nullptr);
-	Vector(initializer_list<T>);
+	Vector(int, T a[] = nullptr);
+	Vector(std::initializer_list<T>);
 
+
+
+#include "Vector.hpp"
 
 private:
 
 	int size;
+	int element;
 	T* elem;
 
 };
