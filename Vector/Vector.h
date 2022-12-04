@@ -26,7 +26,6 @@ public:
 
 	size_t get_size() const { return element; };
 
-	
 
 };
 
