@@ -3,7 +3,6 @@
 #include "Vector.h"
 
 
-
 template<typename T>
 void Vector<T>::resize() {
 
