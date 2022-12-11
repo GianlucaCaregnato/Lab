@@ -130,8 +130,8 @@
     <ClCompile Include="MainVecGian.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VectorGian.h" />
-    <ClInclude Include="VectorGian.hpp" />
+    <ClInclude Include="VectorG.h" />
+    <ClInclude Include="VectorG.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

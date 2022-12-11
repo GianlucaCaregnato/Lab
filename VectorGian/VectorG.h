@@ -1,11 +1,11 @@
-#ifndef VectorGian_h
-#define VectorGian_h
+#ifndef VectorG_h
+#define VectorG_h
 #include <initializer_list>
 #include <algorithm>
 #include <iostream>
 
 template<typename T>
-class Vector {
+class VectorG {
 
 private:
 
@@ -17,9 +17,9 @@ private:
 
 public:
 
-	Vector();
-	Vector(int, T a[] = nullptr);
-	Vector(std::initializer_list<T>);
+	VectorG();
+	VectorG(int, T a[] = nullptr);
+	VectorG(std::initializer_list<T>);
 
 	T at(int i) const { return elem[i]; };
 	T operator [] (int i) const { return at(i); };
@@ -30,9 +30,9 @@ public:
 };
 
 template<typename T>
-std::ostream& operator<<(std::ostream& os, const Vector<T>& v);
+std::ostream& operator<<(std::ostream& os, const VectorG<T>& v);
 
-#include "Vector.hpp"
+#include "VectorG.hpp"
 
 
 #endif

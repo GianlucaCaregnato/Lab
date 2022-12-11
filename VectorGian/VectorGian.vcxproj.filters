@@ -20,10 +20,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VectorGian.h">
+    <ClInclude Include="VectorG.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-    <ClInclude Include="VectorGian.hpp">
+    <ClInclude Include="VectorG.hpp">
       <Filter>File di origine</Filter>
     </ClInclude>
   </ItemGroup>

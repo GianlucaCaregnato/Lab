@@ -1,0 +1,7 @@
+﻿  MainVecGian.cpp
+C:\Users\gianl\source\repos\Lab\VectorGian\VectorG.hpp(16,1): fatal  error C1001: Errore interno del compilatore.
+  (file del compilatore 'D:\a\_work\1\s\src\vctools\Compiler\CxxFE\sl\p1\c\error.h', riga 1206)
+   Per evitare il problema, provare a semplificare o modificare le parti del programma indicate sopra.
+  Se possibile, specificare qui la procedura per riprodurre il problema: https://developercommunity.visualstudio.com
+  Per altre informazioni, scegliere Supporto tecnico dal menu ? di Visual C++
+   oppure aprire il file della Guida relativo al supporto tecnico.
